@@ -24,7 +24,7 @@ root@vagrant:~# dpkg -L bpfcc-tools | grep sbin/opensnoop
 /usr/sbin/opensnoop-bpfcc
 На какие файлы вы увидели вызовы группы open за первую секунду работы утилиты? Воспользуйтесь пакетом bpfcc-tools для Ubuntu 20.04. Дополнительные сведения по установке по ссылке.
 ответ: sudo apt-get install bpfcc-tools linux-headers-$(uname -r) - установила
-![file]()
+![file](https://github.com/EVolgina/devops-netology10/blob/main/задание%205.PNG)
 # 6.Какой системный вызов использует uname -a? Приведите цитату из man по этому системному вызову, где описывается альтернативное местоположение в /proc и где можно узнать версию ядра и релиз ОС.
 ![file]()
 # 7.Чем отличается последовательность команд через ; и через && в bash? Например:
