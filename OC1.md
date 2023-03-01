@@ -20,7 +20,7 @@ vagrant@netology1:~$ file /bin/bash\
 ответ: Команда script out.log запустила создание файла и запись в него началась.Отправила команду top –b –n50000>out.log\
 Далее удаляем файл out.log\
 И проверяем lsof 1445 –PID 1-дескриптор\
-дескриптор в /proc/1445/fd/1 и записать туда пустоту > /proc/1445/fd/1\
+дескриптор в /proc/1445/fd/1 и записать туда пустоту > /proc/1445/fd/1
 
 ![file](https://github.com/EVolgina/devops-netology10/blob/main/задание%203.PNG)
 # 4.Занимают ли зомби-процессы ресурсы в ОС (CPU, RAM, IO)?
